@@ -13,7 +13,7 @@ import java.util.Date;
 
 public class Main {
 
-    private static final String SAMPLE_CSV_FILE = "asd.csv";
+    private static final String SAMPLE_CSV_FILE = "randomData.csv";
 
     public static void main(String[] args) {
         try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(SAMPLE_CSV_FILE));
